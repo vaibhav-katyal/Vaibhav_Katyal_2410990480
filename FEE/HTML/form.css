@@ -1,0 +1,52 @@
+.head{
+    color: red; 
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 9px;
+}
+
+.cmn{
+    font-weight: 600;
+    font-size: large;
+}
+
+.personal{
+    border: 1px solid;
+    padding: 4px 15px 15px 15px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login{
+    margin-bottom: 15px;
+}
+
+.main{
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 13rem;
+    margin-right: 13rem;
+    border: 2px double;
+}
+
+.btns{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn{
+    width: 90px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid;
+    color: green;
+    cursor: pointer;
+    background-color: white;
+}

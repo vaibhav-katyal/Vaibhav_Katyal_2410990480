@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="head">Required Field are denoted by "*"</div>
+
+        <div class="personal">
+            <h2>Personal Details</h2>
+
+            <div class="name">
+                <label for="fname" class="cmn">First Name*: </label>
+                <input type="text" name="fname" id="fname" placeholder="Enter your First Name" style="font-size: medium;"><br><br>
+
+                <label for="lname" class="cmn">Last Name*: </label>
+                <input type="text" name="lname" id="lname" placeholder="Enter your Last Name" style="font-size: medium;">
+            </div> <br>
+
+            <label for="dob" class="cmn">Date of Birth:</label>
+            <input type="date" name="dob" id="dob"><br><br>
+
+            <label for="age" class="cmn">Age: </label>
+            <input type="number" name="age" id="age">
+        </div>
+
+        <div class="gender personal">
+            <h2>Gender*</h2>
+            <input type="radio" name="male" id="male">
+            <label for="male" class="cmn">Male</label>
+
+            <input type="radio" name="female" id="female">
+            <label for="female" class="cmn">Female</label>
+
+            <input type="radio" name="others" id="others">
+            <label for="others" class="cmn">Others</label>
+        </div>
+
+        <div class="contact personal">
+            <h2>Contact Information</h2>
+            <label for="phone" class="cmn">Phone Number* :</label>
+            <input type="number" name="phone" id="phone" placeholder="Enter your phone number" style="font-size: medium;"><br><br>
+
+            <label for="email" class="cmn">Email ID* :</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email ID" style="font-size: medium;">
+        </div>
+
+        <div class="address personal">
+            <h2>Address Details</h2>
+            <label for="address" class="cmn">Address* :</label>
+            <input type="text" name="address" id="address">
+            <label for="state" class="cmn">State* :</label>
+            <input type="text" name="address" id="address"><br><br>
+            <label for="address" class="cmn">City* :</label>
+            <input type="text" name="address" id="address">
+            <label for="address" class="cmn">Pincode* :</label>
+            <input type="text" name="address" id="address">
+        </div>
+
+        <div class="login personal">
+            <h2>Login Detail</h2>
+            <label for="user" class="cmn">Username* :</label>
+            <input type="text" name="user" id="user" placeholder="Enter your username"><br><br>
+
+            <label for="pass" class="cmn">Password* :</label>
+            <input type="password" name="pass" id="pass" placeholder="Enter your Password: ">
+        </div>
+
+        <div class="btns">
+            <button type="submit" class="btn" onclick="alert('Form Submitted Succesfully! You will recieve an email from our end soon')">Submit</button>
+            <button type="reset" class="btn" style="color: red;">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html>
